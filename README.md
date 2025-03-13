@@ -16,6 +16,9 @@ A simple Go tool to convert test report logs into readable HTML reports.
 ## Usage
 
 ```bash
+# run test
+go test --ginkgo.vv --ginkgo.no-color...
+
 # Specify custom input and output files
 go run test_report_converter.go -input=/path/to/your/test_report.log -output=/path/to/output/report.html
 ```
